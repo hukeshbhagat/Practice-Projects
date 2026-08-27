@@ -38,7 +38,7 @@ main {
 
   .burger {
     position: absolute;
-    top: 60%;
+    top: 20%;
     left: 12%;
   }
 
@@ -107,6 +107,12 @@ main {
     padding: 15px;
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.2);
+
+    .info-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
 
     .info-icon {
       height: 50px;
