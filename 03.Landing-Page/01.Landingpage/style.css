@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  background-color: #5498ba;
+  padding: 17px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 30px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #1a3340;
+}
+
+.hero {
+  height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDSOSyRXwuQbPeXzDBoZ6biEa-n9MEgcWh6VxVvC_KKQ&s=10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 53px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 20px 0px;
+}
+
+.hero .btn {
+  display: flex;
+  padding: 12px 20px;
+  background-color: #5498ba;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #fff;
+  color: #1a3340;
+}
