@@ -1,51 +1,89 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins" ,sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(228, 223, 223);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-
+  width: 100%;
+  height: 100vh;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEqbOgm_qKue6zA9TXXgz7oJt_A8Kn3c7gt9Hljv7SRQ&s=10);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-contain {
-    width: 500px;
-    background-color: white;
-    display: inline-block;
-    /* min-width: 100vh; */
-    text-align: center;
-    padding: 35px;
-    border-radius: 15px;
+  max-width: 400px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border: 1px solid #ffffff40;
+  border-radius: 25px;
+  align-items: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
 }
 
 .image {
-    width: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+.image .profile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
 }
 
-.main-contain h2 {
-    font-size: 35px;
-    font-weight: bold;
-    color: black;
-    margin-bottom: 5px;
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
 }
 
- .main-contain .roll {
-    font-size: 18px;
-    margin-bottom: 35px;
-    color: rgb(32, 31, 31);
+.data h2 {
+  font-size: 33px;
+  font-weight: 600;
 }
 
-.main-contain
+.main-contain .roll {
+  font-size: 18px;
+}
 
+.follow-btn {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.follow-btn .info {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.main-btn {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.main-btn button {
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 8px 25px;
+  border-radius: 25px;
+  border: none;
+  margin-bottom: 5px;
+  font-size: 18px;
+  margin: 0px 25px;
+  background: linear-gradient(to left, #33ccff 0%, rgba(245, 67, 200, 0.6)) 0%;
+}
